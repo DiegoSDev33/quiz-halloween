@@ -31,8 +31,12 @@ module.exports = (req, res) => {
         <div class="podium">
         <div class="container-podium">
             ${podiumContent}
+       
             </div>
         </div>
+        <div class="btn-open">
+        <a class="btn-entrar" href="./login">Jogar Novamente</a>
+         </div>
         `
     });
 };
