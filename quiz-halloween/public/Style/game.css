@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+:root{
+  font-family: "Creepster";
+  color: white;
+}
+
+.body-game {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background-image: url('../img/background_n.gif');
+  background-size: cover;
+   
+}
+
+.body-game h2 {
+  color: white;
+}
+
+.main-game {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 40px rgba(161, 6, 6, 0.4);
+}
+
+.finish-game {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.spnQtd {
+  text-align: end;
+  color: rgb(214, 140, 140);
+  font-size: 30px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.answers button,
+.finish button {
+  width: 100%;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ac6a1f;
+  color: white;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
+.body-game h2{
+  font-size: 50px;
+  color: rgb(228, 100, 14);
+}
+
+.question{
+  font-size: 25px;
+}
+
+.podium{
+  width: 100%;
+  text-align: center;
+  height: 600px;
+  background-image: url('../img/podio.gif');
+  background-size: cover;
+ 
+}
+
+.container-podium{
+  color:  rgb(228, 100, 14);
+ font-size: 30px;
+  margin-top: 200px;
+ margin-left: 40%;
+ align-items: center;
+ box-shadow: 10px 10px 40px rgba(161, 6, 6, 0.4);
+ width: 200px;
+  position: absolute;
+}
+.user{
+  color: aqua;
+
+}
+
