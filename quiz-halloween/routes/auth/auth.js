@@ -8,6 +8,7 @@ const Login = require('../../views/login')
 const Abertura = require('../../views/open')
 const Game = require('../../views/main')
 const Podium = require("../../views/podium")
+const error = require("../../views/error")
 
 router.get('/signup', (req, res) => {
   res.send(Signup())
@@ -42,7 +43,9 @@ router.post('/login', async (req, res) => {
     res.redirect('/admin/error')
   }
 })
-
+router.get('/error', (req, res) => {
+  res.send(error())
+})
 router.get('/', (req, res) => {
   res.send(Abertura())
 })
